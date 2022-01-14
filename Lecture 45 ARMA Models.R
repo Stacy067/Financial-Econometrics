@@ -3,7 +3,7 @@
 rm(list=ls())
 
 # AR(1) Model
-y<-arima.sim(n=500,list(ar=0.9))
+y<-arima.sim(n=500,list(ar=0.9))  
 plot(y)
 acf(y)
 pacf(y)
